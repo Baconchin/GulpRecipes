@@ -43,7 +43,7 @@ gulp.task('vendor',function() {
 gulp.task('coffee',function() {
   return gulp.src('coffee/main.coffee')
   .pipe(coffee({bare:true})).on('error',gutil.log)
-  .pipe(gulp.dest('js/main.js'))
+  .pipe(gulp.dest('js/'))
   .on('error',gutil.log);
 });
 
