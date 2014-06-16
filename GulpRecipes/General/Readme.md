@@ -1,4 +1,4 @@
-## Gulp Config for a general site
+## Gulp Config for a One Page Website
 
 When setting up a simple one page website, there are loads of corners that can be cut especially when
 it comes to frontend compiling.
@@ -21,3 +21,5 @@ file.
 
 There is no need to create a main.css file as gulp will create that for you; the same goes
 for the main.js
+
+A simple gulp config that will get you going
